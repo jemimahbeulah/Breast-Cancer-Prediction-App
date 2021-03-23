@@ -8,9 +8,9 @@ ran_model = pickle.load(open('ran.pkl','rb'))
 
 def classify(num):
     if num == 1:
-        return 'Cancer Type : Malignant [Please consult a doctor as soon as possible. Malignant cells are cancerous and they can spread rapidly in the body.]'
+        return 'Cancer Type : Malignant [Malignant cells are cancerous and they can spread rapidly in the body.]'
     else:
-        return 'Cancer Type : Benign [Not to worry. Benign tumors are not cancerous, they cannot spread or they can grow very slowly.]'
+        return 'Cancer Type : Benign [Benign tumors are not cancerous, they cannot spread or they can grow very slowly.]'
 
 def main():
     import streamlit as st
